@@ -41,7 +41,6 @@ function doClick(e) {
   }
 }
 
-
 function changeProperties(_child, fw = 'normal', bg = "#f9fafb") {
   _child.applyProperties({ backgroundColor: bg, font: { fontSize: _child.font.fontSize, fontWeight: fw } });
 }
