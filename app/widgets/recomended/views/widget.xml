@@ -1,0 +1,9 @@
+<Alloy>
+  <View class="grid-cols-2">
+    <View class="w-screen h-52 rounded-10 gap-3 touch-enabled-false">
+      <ImageView image="{image}" class="wh-full bg-cover touch-enabled-false" />
+
+      <Widget src="info" favorite="{favorite}" text="{text}" stars="{stars}" />
+    </View>
+  </View>
+</Alloy>

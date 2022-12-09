@@ -1,0 +1,19 @@
+<Alloy module="tikit.ui">
+  <TabGroup class="style-tabs-bottom-navigation title-red-300 tint-red-300 active-title-red-600 active-tint-red-600 swipeable-false shift-mode-icon theme-titanium-light-solid-no-title-bar">
+    <Tab title="Home" icon="ri ri-home-2-line bg-transparent" activeIcon="ri ri-home-2-fill bg-transparent">
+      <Require src="home"/>
+    </Tab>
+
+    <Tab title="Calendar" icon="ri ri-calendar-line bg-transparent" activeIcon="ri ri-calendar-fill bg-transparent">
+      <Window title="title" />
+    </Tab>
+
+    <Tab title="Search" icon="ri ri-search-line" activeIcon="ri ri-search-fill">
+      <Window title="" />
+    </Tab>
+
+    <Tab title="User" icon="ri ri-user-line" activeIcon="ri ri-user-fill">
+      <Window title="" />
+    </Tab>
+  </TabGroup>
+</Alloy>

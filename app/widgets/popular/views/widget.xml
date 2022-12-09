@@ -1,0 +1,7 @@
+<Alloy>
+  <View class="w-80 h-52 rounded-10 ios:ml-3">
+    <ImageView image="{image}" class="wh-full bg-cover touch-enabled-false" />
+
+    <Widget src="info" favorite="{favorite}" text="{text}" stars="{stars}" />
+  </View>
+</Alloy>

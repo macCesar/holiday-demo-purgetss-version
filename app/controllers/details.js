@@ -1,0 +1,3 @@
+function clickBack() {
+  $.details.close();
+}

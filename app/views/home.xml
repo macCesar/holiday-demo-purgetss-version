@@ -1,0 +1,26 @@
+<Alloy>
+  <Window class="ios:extend-safe-area-false ios:nav-bar-hidden vertical portrait">
+    <View class="w-screen h-16 mx-3">
+      <Button class="wh-16 text-gray-900 ml-0 text-left border-transparent bg-transparent touch-feedback ri ri-menu-2-fill text-2xl" />
+      <Label class="text-2xl baskerville" text="Discover" />
+      <ImageView class=" mr-0 wh-10 rounded-10 bg-cover touch-feedback" image="/images/user1.jpg" />
+    </View>
+
+    <ScrollView class="vertical scroll-type-vertical w-full mt-0">
+      <ScrollView id="content" class="mt-8 horizontal scroll-type-horizontal w-full h-auto" dataCollection="content" onClick="doClick">
+        <!-- bg-green-100 -->
+        <Label text="{text}" class="w-28 mx-2 h-6 rounded-6 bg-gray-50 text-center text-sm " />
+      </ScrollView>
+
+      <Label id="largeLabel" text="Popular" class="text-3xl ml-3 w-screen mt-4 baskerville" />
+      <ScrollableView dataCollection="popular" class="mt-3 ml-0 h-auto ios:w-(340) android:w-full android:pl-3 android:pr-(150) clip-views-false cache-size-5" onClick="showPopularDetails">
+        <Widget src="popular" />
+      </ScrollableView>
+
+      <Label text="Recomended" class="text-3xl ml-3 mt-6 baskerville" />
+      <View class="w-full h-auto grid" dataCollection="recomended" onClick="showRecomendedDetails">
+        <Widget src="recomended" />
+      </View>
+    </ScrollView>
+  </Window>
+</Alloy>

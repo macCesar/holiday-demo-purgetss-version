@@ -1,0 +1,17 @@
+{
+  "global": {},
+  "env:development": {},
+  "env:test": {},
+  "env:production": {},
+  "os:android": {},
+  "os:ios": {},
+  "os:windows": {},
+  "dependencies": {
+    "popular": "1.0",
+    "recomended": "1.0",
+    "stars": "1.0",
+    "star": "1.0",
+    "info": "1.0"
+  },
+  "backbone": "1.4.0"
+}

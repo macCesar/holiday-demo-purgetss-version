@@ -1,0 +1,132 @@
+// PurgeTSS v6.2.16
+// Created by César Estrada
+// https://github.com/macCesar/purgeTSS
+
+// Ti Elements
+'ImageView[platform=ios]': { hires: true }
+'Label': { color: '#111827', textColor: '#111827' }
+'View': { width: Ti.UI.SIZE, height: Ti.UI.SIZE }
+'Window': { backgroundColor: '#ffffff' }
+
+// Main Styles
+'.active-tint-red-600': { activeTintColor: '#dc2626' }
+'.active-title-red-600': { activeTitleColor: '#dc2626' }
+'.bg-black': { backgroundColor: '#000000' }
+'.bg-cover': { scalingMode: Ti.Media.IMAGE_SCALING_ASPECT_FILL }
+'.bg-gray-50': { backgroundColor: '#f9fafb' }
+'.bg-green-100': { backgroundColor: '#dcfce7' }
+'.bg-transparent': { backgroundColor: 'transparent' }
+'.bg-white': { backgroundColor: '#ffffff' }
+'.border-transparent': { borderColor: 'transparent' }
+'.cache-size-5': { cacheSize: 5 }
+'.clip-views-false': { clipViews: false }
+'.display-home-as-up': { displayHomeAsUp: true }
+'.font-bold': { font: { fontWeight: 'bold' } }
+'.from-black': { backgroundGradient: { colors: [ '#00000000', '#000000' ] } }
+'.gap-3': { top: 12, right: 12, bottom: 12, left: 12 }
+'.grid': { layout: 'horizontal', width: '100%' }
+'.grid-cols-2': { width: '50%' }
+'.h-1/5': { height: '20%' }
+'.h-16': { height: 64 }
+'.h-2/5': { height: '40%' }
+'.h-36': { height: 144 }
+'.h-52': { height: 208 }
+'.h-6': { height: 24 }
+'.h-9': { height: 36 }
+'.h-auto': { height: Ti.UI.SIZE }
+'.horizontal': { layout: 'horizontal' }
+'.italic': { font: { fontStyle: 'italic' } }
+'.m-8': { top: 32, right: 32, bottom: 32, left: 32 }
+'.mb-0': { bottom: 0 }
+'.mb-3/5': { bottom: '60%' }
+'.ml-0': { left: 0 }
+'.ml-3': { left: 12 }
+'.mr-0': { right: 0 }
+'.mr-0.5': { right: 2 }
+'.mr-3': { right: 12 }
+'.mr-4': { right: 16 }
+'.mr-8': { right: 32 }
+'.mt-0': { top: 0 }
+'.mt-0.5': { top: 2 }
+'.mt-1/3': { top: '33.333334%' }
+'.mt-10': { top: 40 }
+'.mt-16': { top: 64 }
+'.mt-2': { top: 8 }
+'.mt-3': { top: 12 }
+'.mt-4': { top: 16 }
+'.mt-6': { top: 24 }
+'.mt-8': { top: 32 }
+'.mx-2': { right: 8, left: 8 }
+'.mx-3': { right: 12, left: 12 }
+'.portrait': { orientationModes: [ Ti.UI.PORTRAIT ] }
+'.rounded-10': { borderRadius: 20 }
+'.rounded-6': { borderRadius: 12 }
+'.rounded-8': { borderRadius: 16 }
+'.rounded-9': { borderRadius: 18 }
+'.scroll-type-horizontal': { scrollType: 'horizontal' }
+'.scroll-type-vertical': { scrollType: 'vertical' }
+'.shift-mode-icon': { shiftMode: 2 }
+'.style-tabs-bottom-navigation[platform=android]': { style: Ti.UI.Android.TABS_STYLE_BOTTOM_NAVIGATION }
+'.swipeable-false': { swipeable: false }
+'.text-2xl': { font: { fontSize: 24 } }
+'.text-3xl': { font: { fontSize: 30 } }
+'.text-base': { font: { fontSize: 16 } }
+'.text-center': { textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER }
+'.text-gray-900': { color: '#111827', textColor: '#111827' }
+'.text-left': { textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT }
+'.text-lg': { font: { fontSize: 18 } }
+'.text-red-600': { color: '#dc2626', textColor: '#dc2626' }
+'.text-sm': { font: { fontSize: 14 } }
+'.text-white': { color: '#ffffff', textColor: '#ffffff' }
+'.text-xl': { font: { fontSize: 20 } }
+'.text-yellow-500': { color: '#eab308', textColor: '#eab308' }
+'.theme-titanium-light-solid': { theme: 'Theme.Titanium.Light.Solid' }
+'.theme-titanium-light-solid-no-title-bar': { theme: 'Theme.Titanium.Light.Solid.NoTitleBar' }
+'.tint-red-300': { tintColor: '#fca5a5' }
+'.title-red-300': { titleColor: '#fca5a5' }
+'.touch-enabled-false': { touchEnabled: false }
+'.touch-feedback': { touchFeedback: true }
+'.vertical': { layout: 'vertical' }
+'.w-28': { width: 112 }
+'.w-80': { width: 320 }
+'.w-full': { width: '100%' }
+'.w-screen': { width: Ti.UI.FILL }
+'.wh-10': { width: 40, height: 40 }
+'.wh-16': { width: 64, height: 64 }
+'.wh-8': { width: 32, height: 32 }
+'.wh-full': { width: '100%', height: '100%' }
+
+// Platform and Device Modifiers
+'.android:pl-3[platform=android]': { padding: { left: 12 } }
+'.android:w-full[platform=android]': { width: '100%' }
+'.ios:extend-safe-area-false[platform=ios]': { extendSafeArea: false }
+'.ios:ml-3[platform=ios]': { left: 12 }
+'.ios:nav-bar-hidden-false[platform=ios]': { navBarHidden: false }
+'.ios:nav-bar-hidden[platform=ios]': { navBarHidden: true }
+
+// Color Opacity Modifiers
+'.text-white/90': { color: '#e6ffffff', textColor: '#e6ffffff' }
+'.to-black/0': { backgroundGradient: { colors: [ '#00000000' ] } }
+
+// Arbitrary Values
+'.android:pr-(150)[platform=android]': { padding: { right: 150 } }
+'.ios:w-(340)[platform=ios]': { width: 340 }
+'.rounded-t-(48)': { borderRadius: [48, 48, 0, 0] }
+
+// Font Styles
+'.baskerville': { font: { fontFamily: 'LibreBaskerville-Regular' } }
+'.ri': { font: { fontFamily: 'remixicon' } }
+'.ri-calendar-fill': { text: '\ueb26', title: '\ueb26' }
+'.ri-calendar-line': { text: '\ueb27', title: '\ueb27' }
+'.ri-heart-fill': { text: '\uee0e', title: '\uee0e' }
+'.ri-home-2-fill': { text: '\uee18', title: '\uee18' }
+'.ri-home-2-line': { text: '\uee19', title: '\uee19' }
+'.ri-menu-2-fill': { text: '\uef31', title: '\uef31' }
+'.ri-search-fill': { text: '\uf0d0', title: '\uf0d0' }
+'.ri-search-line': { text: '\uf0d1', title: '\uf0d1' }
+'.ri-star-fill': { text: '\uf186', title: '\uf186' }
+'.ri-user-fill': { text: '\uf25f', title: '\uf25f' }
+'.ri-user-line': { text: '\uf264', title: '\uf264' }
+
+// Unused or unsupported classes
+// '.font-regular': { }
