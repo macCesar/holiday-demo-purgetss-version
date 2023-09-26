@@ -9,7 +9,7 @@
     <ScrollView class="vertical scroll-type-vertical w-full mt-0">
       <ScrollView id="content" class="mt-8 horizontal scroll-type-horizontal w-full h-auto" dataCollection="content" onClick="doClick">
         <!-- bg-green-100 -->
-        <Label text="{text}" class="w-28 mx-2 h-6 rounded-6 bg-gray-50 text-center text-sm " />
+        <Label text="{text}" class="w-28 mx-2 h-6 rounded-6 bg-gray-50 text-center text-sm" />
       </ScrollView>
 
       <Label id="largeLabel" text="Popular" class="text-3xl ml-3 w-screen mt-4 baskerville" />

@@ -1,1 +1,1 @@
-$.widget.cid = $model.cid;
+$.widget.cid = $model.cid

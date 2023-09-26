@@ -29,7 +29,6 @@ function doClick(e) {
     _.each(e.source.parent.children, child => {
       if (child.backgroundColor === '#dcfce7')
         changeProperties(child)
-
     })
 
     $.largeLabel.text = e.source.text
@@ -48,11 +47,9 @@ function changeProperties(_child, fw = 'normal', bg = '#f9fafb') {
 function showPopularDetails(e) {
   if (e.source.cid)
     Alloy.Globals.tabGroup.activeTab.open(Alloy.createController('details', Alloy.Collections.popular._byId[e.source.cid].attributes).getView())
-
 }
 
 function showRecomendedDetails(e) {
   if (e.source.cid)
     Alloy.Globals.tabGroup.activeTab.open(Alloy.createController('details', Alloy.Collections.recomended._byId[e.source.cid].attributes).getView())
-
 }
