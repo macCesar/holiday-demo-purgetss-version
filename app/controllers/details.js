@@ -1,3 +1,3 @@
 function clickBack() {
-  $.details.close()
+  $.getView().close()
 }
