@@ -14,6 +14,7 @@ This is a re-creation of Michael's [**Holiday Demo App**](https://github.com/m1g
 
 ## Getting Started
 First, make sure you have **PurgeTSS** installed globally on your machine:
+
 ```bash
 > npm i -g purgetss
 ```
