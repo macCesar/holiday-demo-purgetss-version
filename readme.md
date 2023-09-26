@@ -12,7 +12,10 @@ This is a re-creation of Michael's [**Holiday Demo App**](https://github.com/m1g
 
 - **TiKit Library**: We've incorporated the [TiKit UI Components](https://purgetss.com/tikit). This library offers a rich set of UI components, including Tabs with Icon Fonts.
 
+- **RemixIcon**: We've used [RemixIcon](https://github.com/Remix-Design/RemixIcon) to provide a set of icon fonts.
+
 ## Getting Started
+
 First, make sure you have **PurgeTSS** installed globally on your machine:
 
 ```bash
