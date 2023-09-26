@@ -1,31 +1,35 @@
-// ./purgetss/config.js
 module.exports = {
   purge: {
     mode: 'all',
-
-    // These options are passed directly to PurgeTSS
     options: {
-      legacy: false, // Generates & Purge tailwind.tss v5.x classes
-      missing: true, // Report missing classes
-      widgets: true, // Purge widgets too
-      safelist: [], // Array of classes to keep
-      plugins: [] // Array of properties to ignore
-    }
+      legacy: false,
+      missing: true,
+      widgets: true,
+      safelist: [],
+      plugins: []
+    },
+    method: 'sync'
   },
   theme: {
     extend: {
       colors: {
-        primary: '#ce10cc'
+        primary: {
+          50: '#fff3ff',
+          100: '#fde6ff',
+          200: '#fdccff',
+          300: '#fea4ff',
+          400: '#ff6dff',
+          500: '#f837fe',
+          600: '#e016e3',
+          700: '#ce10cc',
+          800: '#9a0e97',
+          900: '#7d1278',
+          950: '#550052',
+          default: '#ce10cc'
+        }
       }
     },
-    '.main-banner': {
-      apply: [
-        'bg-primary/35',
-        'border-primary/75'
-      ]
-    },
-    Label: {
-      apply: 'text-gray-900'
-    }
+    '.main-banner': { apply: [ 'bg-primary/35', 'border-primary/75' ] },
+    Label: { apply: 'text-gray-900' }
   }
-};
+}
