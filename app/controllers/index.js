@@ -1,3 +1,3 @@
-Alloy.Globals.tabGroup = $.index;
+Alloy.Globals.tabGroup = $.index
 
-$.index.open();
+$.index.open()
