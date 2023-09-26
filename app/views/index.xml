@@ -9,11 +9,11 @@
     </Tab>
 
     <Tab title="Search" icon="ri ri-search-line" activeIcon="ri ri-search-fill">
-      <Window title="" />
+      <Window title="Search" />
     </Tab>
 
     <Tab title="User" icon="ri ri-user-line" activeIcon="ri ri-user-fill">
-      <Window title="" />
+      <Window title="User" />
     </Tab>
   </TabGroup>
 </Alloy>
