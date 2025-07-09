@@ -1,7 +1,7 @@
 <Alloy>
   <View class="grid-cols-2">
-    <View class="w-screen gap-3 h-52 rounded-10 touch-enabled-false">
-      <ImageView image="{image}" class="bg-cover wh-full touch-enabled-false" />
+    <View class="rounded-10 touch-enabled-false h-52 w-screen gap-3">
+      <ImageView image="{image}" class="wh-full touch-enabled-false bg-cover" />
 
       <Widget src="info" favorite="{favorite}" text="{text}" stars="{stars}" />
     </View>

@@ -1,6 +1,6 @@
-// PurgeTSS v6.2.34
+// PurgeTSS v7.1.9
 // Created by César Estrada
-// https://github.com/macCesar/purgeTSS
+// https://purgetss.com
 
 // Ti Elements
 'ImageView[platform=ios]': { hires: true }
@@ -83,7 +83,7 @@
 '.text-yellow-500': { color: '#eab308', textColor: '#eab308' }
 '.theme-titanium-light-solid': { theme: 'Theme.Titanium.Light.Solid' }
 '.theme-titanium-light-solid-no-title-bar': { theme: 'Theme.Titanium.Light.Solid.NoTitleBar' }
-'.tint-red-300': { tint: '#fca5a5', tintColor: '#fca5a5' }
+'.tint-red-300': { tint: '#fca5a5' }
 '.title-red-300': { titleColor: '#fca5a5' }
 '.touch-enabled-false': { touchEnabled: false }
 '.touch-feedback': { touchFeedback: true }

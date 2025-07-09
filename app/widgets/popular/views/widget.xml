@@ -1,6 +1,6 @@
 <Alloy>
-  <View class="w-80 h-52 rounded-10 ios:ml-3">
-    <ImageView image="{image}" class="bg-cover wh-full touch-enabled-false" />
+  <View class="rounded-10 ios:ml-3 h-52 w-80">
+    <ImageView image="{image}" class="wh-full touch-enabled-false bg-cover" />
 
     <Widget src="info" favorite="{favorite}" text="{text}" stars="{stars}" />
   </View>

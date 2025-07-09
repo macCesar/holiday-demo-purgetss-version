@@ -1,10 +1,10 @@
 <Alloy>
-  <View class="mb-0 w-full h-16 from-black to-black/0 touch-enabled-false">
-    <View class="vertical mx-3 ">
-      <Label text="$.args.text" class="ml-0 text-white text-base"/>
+  <View class="from-black to-black/0 touch-enabled-false mb-0 h-16 w-full">
+    <View class="vertical mx-3">
+      <Label text="$.args.text" class="ml-0 text-base text-white"/>
       <Widget if="$.args.stars" src="stars" stars="$.args.stars" />
     </View>
 
-    <Label if="$.args.favorite" id="heart" class="text-lg ri ri-heart-fill text-center text-red-600 mr-3 wh-8 bg-white rounded-8" />
+    <Label if="$.args.favorite" id="heart" class="ri ri-heart-fill text-red-600 wh-8 bg-white rounded-8 mr-3 text-center text-lg" />
   </View>
 </Alloy>

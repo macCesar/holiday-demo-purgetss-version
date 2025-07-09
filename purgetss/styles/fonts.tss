@@ -1,5 +1,5 @@
 // Fonts TSS file generated with PurgeTSS
-// https://github.com/macCesar/purgeTSS
+// https://purgetss.com/docs/commands#build-fonts-command
 
 /**
  * Libre Baskerville
@@ -19,7 +19,7 @@
 // Unicode Characters
 // To use your Icon Fonts in Buttons AND Labels each class sets 'text' and 'title' properties
 
-// remixicon/remixicon.css
+// remixicon/ri.css
 '.ri-24-hours-fill': { text: '\uea01', title: '\uea01' }
 '.ri-24-hours-line': { text: '\uea02', title: '\uea02' }
 '.ri-4k-fill': { text: '\uea03', title: '\uea03' }
